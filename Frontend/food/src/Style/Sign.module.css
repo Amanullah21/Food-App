@@ -1,0 +1,13 @@
+.Sign_container {
+  padding: 10px;
+}
+.Form_Box {
+  margin: 10px 40px;
+  background-color: #e25e3e;
+  height: 500px;
+  width: 90%;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+}

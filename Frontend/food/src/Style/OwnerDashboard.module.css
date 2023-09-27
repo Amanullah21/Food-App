@@ -1,0 +1,121 @@
+.Order_Container {
+  display: flex;
+  gap: 30px;
+  /* height: 300px; */
+  padding: 30px 30px;
+}
+.Order_Box {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  /* text-align: center; */
+  justify-content: center;
+  width: 70%;
+  padding: 30px 20px;
+}
+.payment_details {
+  width: 25%;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.Table_container {
+  background-color: #d9d9d9;
+  height: 200px;
+  padding: 20px;
+  margin: 10px 30px;
+  border-radius: 10px;
+  display: flex;
+  gap: 30px;
+}
+.table_box {
+  height: 180px;
+  width: 24%;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #bbbbbb;
+}
+.add_product_container {
+  height: 100px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  margin: 20px 30px;
+  display: flex;
+  gap: 30px;
+}
+.add_product_container > div {
+  width: 48%;
+  padding: 15px 20px;
+  cursor: pointer;
+  text-align: center;
+}
+.add_product_container div:hover {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #bbbbbb;
+}
+.camera_container {
+  height: 150px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  margin: 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 35px;
+}
+.camera_container div {
+  height: 150px;
+  cursor: pointer;
+  width: 150px;
+  /* padding-top: 30px; */
+  text-align: center;
+  border-radius: 10px;
+  background-color: #bbbbbb;
+}
+
+.camera_container div:hover {
+  background-color: #c0b9b9;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+}
+.profit_container {
+  height: 250px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  margin: 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 35px;
+}
+
+.profit_container > div {
+  width: 27%;
+  background-color: #bbbbbb;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/*Product Page Css */
+
+.addProduct_container {
+  display: flex;
+  gap: 50px;
+  border-radius: 10px;
+  /* height: 500px; */
+  padding: 30px 100px;
+}
+.addProduct_container div {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  /* height: 48%; */
+  width: 48%;
+  text-align: center;
+  justify-content: center;
+  /* margin-bottom: 20px; */
+  padding-top: 20px;
+}

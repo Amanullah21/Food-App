@@ -1,0 +1,11 @@
+react-multi-carousel -> https://www.npmjs.com/package/react-multi-carousel
+color
+    Page - #D9d9d9
+    c1 - #bbbbbb
+
+rupiya symbol   -   &#8377;
+
+
+// AAPi
+ 1.   when i Inc/dec to quantity of product but it is working for all product
+ 2.   similar issue with select field in owner Dashboard 

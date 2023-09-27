@@ -1,0 +1,134 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Dry Fruits",
+      "cate": "Dry Fruits",
+      "price": 101.99,
+      "url": "https://th.bing.com/th/id/OIP._4g94acfgaKzf_zDDAhHDAHaE8"
+    },
+    {
+      "id": 2,
+      "name": "Chicken",
+      "description": "Description of Product 1",
+      "price": 300,
+      "image": "https://images3.alphacoders.com/807/thumb-1920-807704.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Product2",
+      "description": "Description of Product 2",
+      "price": 29.99,
+      "image": "https://images2.alphacoders.com/101/1010157.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Product3",
+      "description": "Description of Product 3",
+      "price": 20.99,
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d7bb2e30654151.562d52e9a0f12.jpg"
+    }
+  ],
+  "slider": [
+    {
+      "id": 201,
+      "name": "Dry Fruits",
+      "img": "url"
+    },
+    {
+      "id": 202,
+      "name": "Breakfast",
+      "img": "url"
+    },
+    {
+      "id": 203,
+      "name": "chocolate",
+      "img": ""
+    },
+    {
+      "id": 204,
+      "name": "Dosa",
+      "img": ""
+    },
+    {
+      "id": 205,
+      "name": "North India",
+      "img": ""
+    },
+    {
+      "id": 207,
+      "name": "Cake",
+      "img": ""
+    },
+    {
+      "id": 206,
+      "name": "Biryani",
+      "img": ""
+    },
+    {
+      "id": 208,
+      "name": "Rolls",
+      "img": ""
+    },
+    {
+      "id": 209,
+      "name": "Noodles",
+      "img": ""
+    }
+  ],
+  "ShopName": [
+    {
+      "ownerName": "Aman",
+      "address": "shahpur",
+      "shopName": "Calci",
+      "userName": "Calci",
+      "mobileNo": "+917070476900",
+      "emailId": "1amanpce@gmail.com",
+      "password": "Aman1234",
+      "againPassword": "Aman1234",
+      "id": 1
+    }
+  ],
+  "order": [
+    {
+      "orderNo": 11,
+      "tableNo": 1,
+      "customerName": "Aman",
+      "cookingTime": 30,
+      "price": 100,
+      "paymentType": "online",
+      "orderType": "daining",
+      "orderStatus": "pending"
+    },
+    {
+      "orderNo": 13,
+      "tableNo": 3,
+      "customerName": "Imran Khan",
+      "cookingTime": 33,
+      "price": 90,
+      "paymentType": "cash",
+      "orderType": "table",
+      "orderStatus": "pending"
+    },
+    {
+      "orderNo": 12,
+      "tableNo": 2,
+      "customerName": "Vineet",
+      "cookingTime": 33,
+      "price": 300,
+      "paymentType": "online",
+      "orderType": "parcel",
+      "orderStatus": "complete"
+    },
+    {
+      "orderNo": 14,
+      "tableNo": 4,
+      "customerName": "Rahul Singh",
+      "cookingTime": 30,
+      "price": 100,
+      "paymentType": "online",
+      "orderType": "daining",
+      "orderStatus": "complete"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+.navbar {
+  height: 30px;
+  background-color: #d9d9d9;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  display: flex;
+  gap: 10px;
+  padding-left: 20px;
+}
+.navbar > div a {
+  text-decoration-line: none;
+}
+
+input {
+  width: 200px;
+  height: 40px;
+  margin: 10px 5px;
+  padding-left: 10px;
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow: 2px 7px #e3dada;
+}
+input:hover {
+  color: white;
+  background-color: black;
+  box-shadow: 2px 7px #343333;
+}
+.loginbtn,
+.createAccountbtn,
+.tablebtn,
+.addProduct,
+.select {
+  width: 215px;
+  background-color: black;
+  color: white;
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 10px;
+  /* margin-right: 10px; */
+  font-weight: 400;
+  font-size: large;
+  box-shadow: 2px 7px #343333;
+  cursor: pointer;
+}
+.loginbtn:hover,
+.createAccountbtn:hover,
+.tablebtn:hover,
+.addProduct:hover {
+  background-color: #198754;
+  color: black;
+  box-shadow: 2px 7px #304335;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(81, 79, 79);
+  border-collapse: collapse;
+  padding: 2px;
+  color: rgb(39, 37, 37);
+}
+
+.xyz {
+  padding: 10px 5px 5px 5px;
+}
+.react-multiple-carousel__arrow .react-multiple-carousel__arrow--right {
+  right: calc(1% + 1px);
+  background-color: red;
+}
