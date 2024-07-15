@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination Example</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .pagination { margin-top: 20px; }
+        .page-button { margin: 0 5px; padding: 5px 10px; cursor: pointer; border: 1px solid #ccc; }
+        .active { font-weight: bold; background-color: #007BFF; color: white; }
+    </style>
+</head>
+<body>
+
+<h1>Pagination Example</h1>
+<h2 id="results"></h2>
+
+<div class="pagination" id="pagination"></div>
+
+<script>
+const data = {
+    test1: "1",
+    test2: "2",
+    test3: "3",
+    test4: "4",
+    test5: "5",
+    test6: "6",
+    test7: "7",
+    test8: "8",
+    test9: "9",
+    test10: "10",
+    test11: "11",
+    test12: "12",
+    test13: "13",
+    test14: "14",
+    test15: "15",
+    test16: "16",
+    test17: "17",
+    test18: "18",
+    test19: "19",
+    test20: "20",
+    test21:'21',
+    test22:"22",
+    test23:"23",
+    test24:"24",
+    test25:"25",
+    test26:"26",
+};
+
+const itemsPerPage = 5;
+let currentPage = 1;
+
+const paginate = (data, itemsPerPage, page) => {
+    const keys = Object.keys(data);
+    const start = (page - 1) * itemsPerPage;
+    const end = start + itemsPerPage;
+    const paginatedKeys = keys.slice(start, end);
+  
+    const result = {};
+    paginatedKeys.forEach(key => {
+        result[key] = data[key];
+    });
+  
+    return result;
+};
+
+const render = (page) => {
+    const paginatedData = paginate(data, itemsPerPage, page);
+    const resultsDiv = document.getElementById('results');
+    resultsDiv.innerHTML = '';
+
+    for (const key in paginatedData) {
+        resultsDiv.innerHTML += `<div>${key}: ${paginatedData[key]}</div>`;
+    }
+
+    renderPagination(page);
+};
+
+const renderPagination = (page) => {
+    const paginationDiv = document.getElementById('pagination');
+    paginationDiv.innerHTML = '';
+
+    const totalPages = Math.ceil(Object.keys(data).length / itemsPerPage);
+    
+    for (let i = 1; i <= totalPages; i++) {
+        const button = document.createElement('button');
+        button.innerText = i;
+        button.className = `page-button ${i === page ? 'active' : ''}`;
+        button.onclick = () => {
+            currentPage = i;
+            render(currentPage);
+        };
+        paginationDiv.appendChild(button);
+    }
+};
+
+// Initial render
+render(currentPage);
+</script>
+
+</body>
+</html>
